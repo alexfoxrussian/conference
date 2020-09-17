@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "lecture": "Создание графов",
+    "author": "Алексей Николаидзе",
+    "level": "hot",
+    "language": "ru"
+  },
+  {
+    "id": 2,
+    "lecture": "Angular 13+",
+    "author": "Peter Parker",
+    "level": "advanced",
+    "language": "en"
+  },
+  {
+    "id": 3,
+    "lecture": "Вариативное решение проблем JS",
+    "author": "Иван Иванов",
+    "level": "intermediate",
+    "language": "ru"
+  },
+  {
+    "id": 4,
+    "lecture": "Есть ли жизнь после Javascript? Размышления о вечном",
+    "author": "Марк Цукиниберг",
+    "level": "hot",
+    "language": "en"
+  },
+  {
+    "id": 5,
+    "lecture": "What if there is no spoon? TypeScript for newbies",
+    "author": "Morpheus",
+    "level": "academic",
+    "language": "en"
+  },
+  {
+    "id": 6,
+    "lecture": "Мотивируем правильно! Техники для тимлидов",
+    "author": "Арсений Ведунков",
+    "level": "hot",
+    "language": "ru"
+  },
+  {
+    "id": 7,
+    "lecture": "HTML/CSS/JS - 3 кита веб-девелопмента",
+    "author": "Борис Сверстальщиков",
+    "level": "intermediate",
+    "language": "ru"
+  },
+  {
+    "id": 8,
+    "lecture": "REACT vs Angular vs Vue - Who's won?",
+    "author": "Mike Vazovski",
+    "level": "academic",
+    "language": "en"
+  },
+  {
+    "id": 9,
+    "lecture": "Влияние мемов на веб-индустрию",
+    "author": "Владимир Несмехов",
+    "level": "hot",
+    "language": "ru"
+  },
+  {
+    "id": 10,
+    "lecture": "42",
+    "author": "Дмитрий Рожков",
+    "level": "intermediate",
+    "language": "ru"
+  }
+]

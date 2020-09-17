@@ -1,0 +1,58 @@
+.app-filters{
+
+  &__languages{
+    display: flex;
+  }
+  &__language, &__level{
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  &__levels{
+    display: flex;
+  }
+  &__search{
+    display: flex;
+    margin: 5px;
+    font-size: 20px;
+  }
+
+  .checkbox{
+    display: none;
+
+    & + label {
+      position: relative;
+      line-height: 24px;
+      margin-bottom: 5px;
+      color: black;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    & + label:last-child {
+      margin-bottom: 0;
+    }
+    & + label:before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      position: relative;
+      top: 6px;
+      margin-right: 5px;
+      margin-left: 5px;
+      border: 2px solid midnightblue;
+      border-radius: 8px;
+      transition: all .12s, border-color .08s;
+    }
+
+    &:checked + label:before {
+      width: 12px;
+      border-radius: 0;
+      top: 0;
+      margin-left: 17px;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(45deg);
+    }
+  }
+}

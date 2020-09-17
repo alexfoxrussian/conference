@@ -1,0 +1,39 @@
+@import "./src/assets/less/fonts";
+
+
+.app-card {
+  margin: 10px 1%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  min-width: 48%;
+  flex: 48%;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid midnightblue;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__lecture {
+    .font-bold();
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  &__author {
+    .font-regular();
+    font-size: 16px;
+  }
+
+  &__info {
+    .font-light();
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

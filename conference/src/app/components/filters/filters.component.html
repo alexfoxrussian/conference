@@ -1,0 +1,19 @@
+<div class="app-filters__languages">
+  <div *ngFor="let lang of languages" class="app-filters__language">
+    <input (change)="onLanguageChange()" [(ngModel)]="languageModel[lang]" [id]="lang" class="checkbox" type="checkbox">
+    <label [for]="lang">{{lang}}</label>
+  </div>
+</div>
+<div class="app-filters__levels">
+  <div *ngFor="let item of levels" class="app-filters__level">
+    <input (change)="onLevelChange()" [(ngModel)]="levelModel[item]" [id]="item" class="checkbox" type="checkbox">
+    <label [for]="item">{{item}}</label>
+  </div>
+</div>
+
+<div class="app-filters__search">
+  <input (ngModelChange)="onSearchValueChange($event)" [ngModel]="searchModel" id="search" type="text">
+  <label for="search"> Search </label>
+</div>
+
+<input (click)="resetFilters()" type="button" value="Reset">
