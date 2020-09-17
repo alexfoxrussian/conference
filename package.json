@@ -2,12 +2,12 @@
   "name": "conference",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "ng": "conference/node_modules/.bin/ng",
+    "start": "conference/node_modules/.bin/ng serve",
+    "build": "conference/node_modules/.bin/ng build",
+    "test": "conference/node_modules/.bin/ng test",
+    "lint": "conference/node_modules/.bin/ng lint",
+    "e2e": "conference/node_modules/.bin/ng e2e"
   },
   "private": true,
   "dependencies": {
